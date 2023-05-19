@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 7vh;
+    background: #212122;
+    position: fixed;
+}
+.fone h4{
+     display: none;
+}
+.bom {
+    padding-bottom: 20px;
+}
+.bom li {
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+    line-height: -30%;
+
+}
+.bom li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.bom a:hover{
+    color: orangered;
+}
+.icon {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.Tune{
+    width: 100%;
+    height: 90vh;
+    background-image: url(showcase.jpeg);
+    background-position: cover;
+    background-size: cover;
+}
+.Tune h1{
+    color:#eeeeee;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 2%;
+    
+}
+.Tune h4 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+.Tune p {
+    color: #eeeeee;
+    text-align: center;
+    font-size: 25px;
+}
+.class {
+    width: 100%;
+    height: 120%;
+    background-color: #212122;
+    background-position: center;
+    margin-top: -12vh;
+    justify-items: center;
+    font-size: 16px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    color: white;
+    line-height: -100%;
+}
+.bread {
+    line-height: 14vh;
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fan1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fan3 {
+    font-size: 23px;
+}
+.fan p{
+    font-size: 25px;
+}
+.ctn {
+    padding: 15px 15px;
+    background: rgb(236, 2, 2);
+    border: 30px;
+    color: white;
+    font-size: 14px;
+}
+.class a:hover{
+    color: orangered;
+}
+.bama img {
+    height: 70%;
+    width: 80%;
+    margin-bottom: 60px;
+}
+.bar {
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+    margin-top: -35px;
+    text-align: center;
+    inline-size: auto;
+    padding-left: 45px;
+}
+.bar h4{
+    font-size: 30px;
+    padding-top: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bar p {
+    font-size: 20px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bar img{
+    height: 50%;
+    width: 70%;
+    padding-bottom: 40px;
+}
+.ctz {
+    padding: 10px 20px;
+    background: rgb(7, 7, 146);
+    border: 20px;
+    color: white;
+    font-size: 14px;
+}
+.bar a:hover{
+    color: orangered;
+}
+.book {
+    width: 100%;
+    height: 80vh;
+    background-image: url(section-bg.jpeg);
+    background-position: cover;
+    background-position-y: bottom;
+    padding: 0 5px;
+}
+.book h3{
+    font-size: 32px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.book p{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 25px;
+    line-height: 130%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottle {
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    position: relative;
+    align-content: right;
+    padding: 0 6px;
+    display: flex;
+}
+.bottle1 h3{
+    text-align: left;
+    font-size: 20px;
+}
+.yob img{
+    width: 90vh;
+    min-height: 20vh;
+}
+.bottle1 p{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottle1 h3{
+    padding-top: 40px;
+
+}
+.bottle1 a {
+    text-align: left;
+    right: 40px;
+    left: 20px;
+}
+.chy {
+    padding: 8px 15px;
+    border: 30px;
+    color: rgb(12, 51, 223);
+    font-size: 14px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+.bottle a:hover{
+    color: orangered;
+}
+.ul {
+    list-style: none;
+}
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #2d2d2efd;
+    padding: 0 6px;
+    list-style: none;
+}
+.footer-col{
+    padding: 0 70px;
+    list-style: none;
+}
+.line p{
+    color: rgb(214, 217, 219);
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 500;
+    padding-top: 49px;
+    position: relative;
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer-col ul li {
+    list-style: none;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    list-style: none;
+    margin-right: 10rem;
+    margin-inline: 10px;
+    color: #ffffff;
+}
+.row{
+    display: flex;
+    
+    white-space: -5px;
+    
+}
+.footer-col ul li a:hover{
+    color: orangered;
+    list-style: none;
+ }
+ .copy{
+    width: 100%;
+    height: 7vh;
+    color: #eeeeee;
+    border: 2px soild blue;
+    background-color: #5d5d5f;
+    padding: 0 5px;
+ }
+ .copy p{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+    line-height: -10vh;
+ }
+ 
+
+/*mobile device*/
+@media (max-width: 600px){
+*{   
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 6vh;
+    width: 75%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: left;
+    background-color: hsla(0, 5%, 18%, 0.973);
+    font-size: 12px;
+    color: white;
+    line-height: 50%;
+    margin-left: 0;
+    display: flex;
+    padding: 0 5px;
+}
+.fone h4{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: -40%;
+    margin-left: 10px;
+    display: flex;
+}
+.bom {
+    float: right;
+    margin-right: 20vh;
+    margin-bottom: 40px;
+    line-height: -100%;
+}
+.bom li {
+    display: none;
+    margin: 10px;
+    padding: 2px;
+
+}
+.bom li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.bom a:hover{
+    color: orangered;
+    transition: .5s;
+}
+.icon {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: none; 
+}
+.Tune{
+    width: 75%;
+    height: 50vh;
+    background-image: url(showcase.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    justify-content: center;
+    padding:  0 5px;
+}
+.Tune h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Tune h4 {
+    font-size: 1.5em;
+    font-style: arial;
+    text-align: center;
+    padding: 5px;
+}
+.Tune p {
+    display: none;
+}
+.class {
+    width: 75%;
+    height: 200%;
+    background-color: #212122;
+    background-position: center;
+    margin-top: -12vh;
+    justify-items: center;
+    font-size: 14px;
+    padding: 0 5px;
+    text-align: center;
+    align-items: center;
+    line-height: -100%;
+}
+.bread {
+    line-height: 14vh;
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fan1 {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fan {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: ease-out;
+    align-self: initial;
+}
+.fan3 {
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.bama img {
+    height: 25%;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.bar{
+    width: 75%;
+    height: 170%;
+    background-position: center;
+    background-color: white;
+    margin-top: -35px;
+    padding: 0 5px;
+}
+.bar h4{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    text-align: center;
+}
+.bar p {
+    font-size: 18px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.bar img {
+    height: 20%;
+    width: 70%;
+}
+.book {
+    width: 75%;
+    height: 130vh;
+    background-image: url(section-bg.jpeg);
+    background-position: cover;
+    background-size: cover;
+    padding: 0 5px;
+}
+.book h3{
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.book p{
+    font-size: 25.5px;
+    color: #ffffff;
+    padding: 5px;
+}
+.yob img{
+    width: 10%;
+    height: 5vh;
+}
+.bottle {
+    width: 75%;
+    height: 10vh;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    align-content: right;
+    padding: 0 6px;
+    display: inlines;
+}
+.bottle1 h3{
+    text-align: left;
+    font-size: 10px;
+}
+.bootle1 p{
+    font-size: 10px;
+}
+.line2 p{
+    box-sizing: border-box;
+}
+.footer {
+    display: none;
+}
+.copy {
+    width: 75%;
+    height: 8vh;
+    background-color: #5d5d5f;
+}
+.copy p{
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+}
+
+    
+
